@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        git(url: 'git@github.com:leegvv/demo.git', branch: 'master')
+        git(url: 'https://github.com/leegvv/demo.git', branch: 'master')
       }
     }
 
